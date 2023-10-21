@@ -1,0 +1,175 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+
+  html{
+    background-image: url(mc.jpg);
+    height: 100%;
+  }
+
+@media (min-height:1100px){
+    html{
+        zoom: 1;
+    }
+}
+
+@media (max-height:1080px){
+    html{
+        zoom: 0.75;
+    }
+}
+
+@media screen and (-webkit-device-pixel-ratio: 1.5){
+    html{
+        zoom: 0.5;
+    }
+}
+
+@media screen and (-webkit-device-pixel-ratio: 1.25){
+    html{
+        zoom: 0.6;
+    }
+}
+
+body{
+    margin: 2%;
+    height: 90%;
+}
+
+#obrazek{
+    height: 100px;
+    width: 250px;
+}
+
+
+h3{
+    color:darkblue;
+    font-size: 90px;
+    padding: 90px;
+}
+
+h2{
+    padding: 55px;
+}
+
+footer{
+    text-align: center;
+    background-color: darkblue;
+    color: white;
+    line-height: 35px;
+    width: auto;
+    padding: 10px;
+    clear: both;
+    height: 10%;
+    font-size: 25px;
+}   
+
+.div1{
+    background-color:green;
+    float: left;
+    height: 29%;
+    width: 25%;
+    font-size: 20px;
+    text-align: left;
+}
+
+.div2{
+    width: 75%;
+    float: right;
+    background-color: lightblue;
+    height: 90%;
+    max-height: 90%;
+    font-size: 35px;
+    overflow-y: scroll;
+}
+
+.bok{
+    background:rgba(106, 234, 55, 0.5);
+    float: left;
+    width: 25%;
+    height: 61%;
+}
+
+.form1{
+    height: 40%;
+    width: 37%;
+    float: left;
+    padding-left: 25px;
+}
+
+.form2{
+    height: 40%;
+    width: 37%;
+    float: left;
+    padding-left: 10px;
+}
+
+.tabelka{
+    position: relative;
+    height: 40%;
+    clear: both;
+}
+
+ul {
+    list-style-type: none;
+  }
+
+a{
+    text-decoration:none;
+    color: white;
+}
+
+
+table{
+    width: 100%;
+    padding: 5px;
+  }
+
+th,tr,td{
+    text-align: center;
+    height: 60px;
+}
+
+th{
+    background-color: navy;
+    color: white;
+}
+
+td{
+    background-color: deepskyblue;
+}
+
+img{
+    padding-left: 15px;
+}
+
+h3,h2,p{
+    padding-left: 15px;
+}
+
+.div1 > ul > ul{
+    background-color: darkgreen;
+    position: relative;
+    
+}
+
+ul {
+    text-indent: 25px;
+    margin-top: 20px;
+}
+
+ul ul {
+    text-indent: 35px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    padding-top: 15px;
+}
+
+a:hover {
+    opacity: 0.5;
+}
+
+tr:nth-child(odd) td{
+    background-color: lightcyan;
+}
