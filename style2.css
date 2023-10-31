@@ -35,18 +35,7 @@ html{
 
 @media screen and (max-height:999px){
     footer{
-        clear: both;
-        text-align: center;
-        width: 90%;
-        height: 5%;
-        background-color: white;
-        color: darkgray;
-        position: absolute;
-        bottom: 10%;
-        font-size: 15px;
-        padding-right: 5%;
-        padding-left: 5%;
-        padding-bottom: 0.5%;
+        background-color: red;
     }
 }
 
