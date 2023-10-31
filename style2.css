@@ -15,7 +15,7 @@ html{
     }
 }
 
-@media screen and (max-height:1080px){
+@media screen and (height: 1080px){
     html{
         zoom: 0.8;
     }
@@ -30,12 +30,6 @@ html{
 @media screen and (-webkit-device-pixel-ratio: 1.25){
     html{
         zoom: 0.65;
-    }
-}
-
-@media screen and (max-height:999px){
-    footer{
-        background-color: red;
     }
 }
 
@@ -85,7 +79,7 @@ h2,h3{
     font-weight: bold;
 }
 
-.div2 > div:nth-of-type(1){
+.div3{
     height: 65%;
     width: 44%;
     position: absolute;
@@ -148,6 +142,10 @@ textarea{
     width: 85%;
 }
 
+td{
+    border-bottom: 1px solid lightgray;
+}
+
 footer{
     clear: both;
     text-align: center;
@@ -186,4 +184,48 @@ footer{
     line-height: 75px;
     padding-left: 1%;
     padding-right: 20%;
+}
+
+
+@media screen and (max-height: 1000px) {
+    .menu > ul > li{
+        position: relative;
+        z-index: 9999;
+    }
+
+    .div3 {
+        padding: 1%;
+        margin: 0;
+        margin-left: 1%;
+        width: 95%;
+        height: 90%;
+        display: block;
+        float: none;
+        z-index:2;
+    }
+
+    .divprawo {
+        padding: 0;
+        margin: 0;
+        width: 97%; 
+        display: block;
+        float: none;
+        top: 100%;
+    }
+
+    footer{
+        display: block;
+        float: none;
+        top: 168%;
+        padding-bottom: 1%;
+    }
+
+    .pprawo{
+        float: right;
+        text-align: left;
+        line-height: 75px;
+        padding-left: 1%;
+        padding-right: 5%;
+    }
+
 }
