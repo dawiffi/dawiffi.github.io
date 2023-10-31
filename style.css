@@ -115,6 +115,10 @@ ul {
     list-style-type: none;
   }
 
+ol{
+    list-style-type: none;
+}
+
 a{
     text-decoration:none;
     color: white;
@@ -154,17 +158,21 @@ h3,h2,p{
     
 }
 
-ul {
+ol {
     text-indent: 25px;
     margin-top: 20px;
 }
 
-ul ul {
+ol ul {
     text-indent: 35px;
     margin-top: 5px;
     margin-bottom: 15px;
     padding-top: 15px;
 }
+
+ol a {
+    display:block;
+  }
 
 a:hover {
     opacity: 0.5;

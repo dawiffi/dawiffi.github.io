@@ -4,24 +4,30 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no, target-densityDpi=device-dpi" />
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="style2.css" />
     <title>S29608</title>
 </head>
 
-<body>
-    <div class="div1">
+<header class="div1">
+    <ol>
+        <li><a href="https://en.wikipedia.org/wiki/Main_Page">link1</a>
+        <div class="menu">
         <ul>
-            <a href="https://en.wikipedia.org/wiki/Main_Page"><li>link1</li></a> <br/>
-            <ul>
-                <a href="https://en.wikipedia.org/wiki/Main_Page"><li>link1_1</li></a><br/>
-                <a href="https://en.wikipedia.org/wiki/Main_Page"><li>link1_2</li></a><br/>
-                <a href="https://en.wikipedia.org/wiki/Main_Page"><li>link1_3</li></a><br/>
-            </ul>
-            <a href="https://en.wikipedia.org/wiki/Main_Page"><li>link2</li></a><br/>
-            <a href="https://en.wikipedia.org/wiki/Main_Page"><li>link3</li></a>
+            <li><a href="https://en.wikipedia.org/wiki/Main_Page">link1_1</a></li><br/>
+            <li><a href="https://en.wikipedia.org/wiki/Main_Page">link1_2</a></li><br/>
+            <li><a href="https://en.wikipedia.org/wiki/Main_Page">link1_3</a></li><br/>
         </ul>
     </div>
+    </li>
+        <li><a href="https://en.wikipedia.org/wiki/Main_Page">link2</a></li><br/>
+        <li><a href="https://en.wikipedia.org/wiki/Main_Page">link3</a></li>
+    </ol>
+</header>
+
+<body>
+    
     <section class="div2">
+        <div class="div3">
         <h3>title 1</h3><br/>
 
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -38,14 +44,17 @@
         <h2>subtitle</h2>
 
         <p>Lorem ipsum.</p>
-
+    
+    
         <h3>title 2</h3>
 
         <p>Lorem ipsum.</p>
+    </div>
+    <div class="divprawo">
         <div class="form1">
-            <form method="POST" action="strona.html">
-                <label for="formImieNazwisko">Imie i nazwisko</label><br />
-                <input type="text" id="formImieNazwisko" /><br />
+            <form method="POST" action="index.html">
+                <label for="formImieNazwisko">Imię i nazwisko</label><br />
+                <input type="text" id="formImieNazwisko" placeholder="imię i nazwisko"/><br />
     
                 <label for="formOpis">Opis</label><br />
                 <textarea placeholder="wpisz coś o sobie" id="formOpis" rows="8" cols="30"></textarea>
@@ -119,7 +128,9 @@
                 </tr>
             </table>
         </div>
+        </div>
         </section>
+
 
     <div class="bok">
     </div>
@@ -128,9 +139,8 @@
 
 </body>
 <footer>
-    sample text 1 <br />
-    sample text 2 <br />
-    sample text 3 <br />
+    <p class="plewo">sample text 1</p>
+    <p class="psrodek">sample text 2</p>
+    <p class="pprawo">sample text 3</p>
 </footer>
-
 </html>
