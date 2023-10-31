@@ -9,30 +9,6 @@ html{
     width: 100%;
 }
 
-@media screen and (min-height:1100px){
-    html{
-        zoom: 1;
-    }
-}
-
-@media screen and (height: 1080px){
-    html{
-        zoom: 0.8;
-    }
-}
-
-@media screen and (-webkit-device-pixel-ratio: 1.5){
-    html{
-        zoom: 0.5;
-    }
-}
-
-@media screen and (-webkit-device-pixel-ratio: 1.25){
-    html{
-        zoom: 0.65;
-    }
-}
-
 .div1{
     width: 98%;
     height: 10%;
@@ -187,7 +163,7 @@ footer{
 }
 
 
-@media screen and (max-height: 1000px) {
+@media screen and (max-height: 900px) {
     .menu > ul > li{
         position: relative;
         z-index: 9999;
@@ -228,4 +204,28 @@ footer{
         padding-right: 5%;
     }
 
+}
+
+@media screen and (min-height:1100px){
+    html{
+        zoom: 1;
+    }
+}
+
+@media screen and (max-height: 1080px){
+    html{
+        zoom: 0.8;
+    }
+}
+
+@media screen and (-webkit-device-pixel-ratio: 1.5){
+    html{
+        zoom: 0.5;
+    }
+}
+
+@media screen and (-webkit-device-pixel-ratio: 1.25){
+    html{
+        zoom: 0.65;
+    }
 }
