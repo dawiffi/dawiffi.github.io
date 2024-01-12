@@ -145,6 +145,11 @@ footer {
 
 #kolejka{
     gap: 2vw;
+    display: flex;
+    flex-direction: row;
+    width: 1vw;
+    align-items: center;
+    align-content: center;
+    text-align: center;
 }
-
 
