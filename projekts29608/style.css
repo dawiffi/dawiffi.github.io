@@ -70,8 +70,8 @@ footer {
 
 .komorka{
     position: static;
-    width: 25vh;
-    height: 25vh;
+    width: 13vw;
+    height: 13vw;
     border: none;
     border-radius: 90%;
 }
@@ -92,19 +92,14 @@ footer {
 
 #obrazek{
     width: 5vw;
-    height: 10vh;
-    position: absolute;
-    bottom: 45px;
-    left: 350px;
+    height: 5vw;
+    margin-bottom: 1vh;
 }
 
 .qt{
     font-family: Mortal;
     font-size: 200%;
     text-shadow: 2px 2px lightskyblue;
-    position: absolute;
-    bottom: 35px;
-    left: 150px;
 }
 
 #wygrana{
@@ -147,3 +142,9 @@ footer {
     text-align: center;
     border-radius: 40%;
 }
+
+#kolejka{
+    gap: 2vw;
+}
+
+
